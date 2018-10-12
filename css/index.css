@@ -1,38 +1,26 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 
-.main{ width:85%; margin:0 auto; overflow:hidden;}
-.left1{ width:33.33%; float:left;}
-.right1{ width:66.67%; float:left;}
-.height{ height:400px;}
-.jianjie img, .jishu img{ width:100%;}
-.jianjie , .gonggao, .xinwen, .bottom{margin:40px 10px;}
-.title{ display:block; border-bottom:3px #eee solid; color:#999; padding-bottom:5px; margin-bottom:10px;}
-.title span{ border-bottom:3px #069 solid; color:#000;padding-bottom:5px; margin-right:10px; font-size:22px;  }
-.jianjie p, .jishu p{line-height:22px; margin-top:5px;}
+.main{ width:84%; margin:0 auto;}
+#jianjie img, #jishu img{ width:100%;}
+.title{ display:block; border-bottom:3px #eee solid; color:#999; padding-bottom:5px; margin-bottom:10px; }
+.title span{ border-bottom:3px #069 solid; color:#000;padding-bottom:5px; margin-right:10px; font-size:22px; }
+#jianjie p, #jishu p{line-height:22px; margin-top:5px;}
 .zuhe a,.zuhe1 a{display:block;border-bottom:1px #eee dashed; color:#000; line-height:40px;}
 .zuhe a span{ font-size:14px; color:#C00; float:right;}
 .zuhe1 a span{float:right;}
-
-.xinwen{position:relative;}
-.more{ position:absolute; top:8px; right:2px; border:1px solid #eee; font-size:10px; border-radius:5px; padding:2px; color:#999}
-
+.more{ position:absolute; top:10px;right:15px; border:1px solid #eee; font-size:10px; border-radius:5px; padding:2px; color:#999;}
 .zuhe1{ position:absolute; top:40px; right:0px;}
-.jishu,.caigou{ float:left; width:48.5%;}
-.jishu{ margin-right:10px;}
-.caigou{ margin-left:10px;}
-.jishu p span{ color:#C00;}
+#jishu p span{ color:#C00;}
 .link a{ display:block; line-height:40px; color:#000;}
 .link + a{ display:block; background-color:#CCC;color:#000; line-height:40px; font-size:18px; text-align:center;}
+#youqing img{margin:10px;}
+.row{margin-top:40px;}
 
-.zhanshi{width:85%; margin:0 auto;position:relative;}
-.youqing{width:85%; margin:0 auto;}
-.youqing img{margin:10px;}
-
-/*主页样式*/
+/*轮播图样式*/
 #myCarousel{width:45%;}
 .zuhe1{width:51%;}
-#pro{margin:0 auto;}
+#pro{padding:0px; margin-top:-30px;}
 li{ list-style:none;}
 
 /*其他页样式*/
